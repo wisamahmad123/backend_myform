@@ -1,6 +1,5 @@
 # Google Form Clone - REST API
 
-# Example Front-End Interface
 ![Google_Forms_Screenshot](https://github.com/user-attachments/assets/aededf7d-fcb6-45e4-a1b3-e6382fc8de55)
 
 
