@@ -4,7 +4,7 @@
 
 
 ## 📌 Overview
-This is a REST API backend for a **Google Form-like** application, allowing users to **create, manage, and submit online forms**.  
+This is a REST API backend for a **G Form-like** application, allowing users to **create, manage, and submit online forms**.  
 Built with **Node.js** and **Express.js**, it implements **JWT authentication** for security and follows RESTful principles.
 
 ## Install Dependencies
