@@ -9,10 +9,15 @@ npm install
 
 ## Setup Environment Variables
 Create a .env file in the root directory and configure the required variables:
+
 APP_PORT=3000
+
 MONGODB_URI=mongodb://localhost:27017
+
 MONGODB_NAME=your-db-name
+
 JWT_ACCESS_TOKEN_SECRET=your-secret-key
+
 JWT_ACCESS_TOKEN_EXPIRATION_TIME=15h
 JWT_REFRESH_TOKEN_SECRET=your-secret-key
 JWT_REFRESH_TOKEN_EXPIRATION_TIME=1h
