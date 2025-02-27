@@ -1,10 +1,8 @@
 # Online Form - REST API
 
-![Google_Forms_Screenshot](https://github.com/user-attachments/assets/aededf7d-fcb6-45e4-a1b3-e6382fc8de55)
-
 
 ## 📌 Overview
-This is a REST API backend for a **Form-like** application, allowing users to **create, manage, and submit online forms**.  
+This is a REST API backend for a **Form** application, allowing users to **create, manage, and submit online forms**.  
 Built with **Node.js** and **Express.js**, it implements **JWT authentication** for security and follows RESTful principles.
 
 ## Install Dependencies
@@ -22,7 +20,9 @@ MONGODB_NAME=your-db-name
 JWT_ACCESS_TOKEN_SECRET=your-secret-key
 
 JWT_ACCESS_TOKEN_EXPIRATION_TIME=15h
+
 JWT_REFRESH_TOKEN_SECRET=your-secret-key
+
 JWT_REFRESH_TOKEN_EXPIRATION_TIME=1h
 
 ## 🚀 Features
