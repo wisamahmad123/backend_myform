@@ -1,7 +1,5 @@
 # Online Form - REST API
 
-![Google_Forms_Screenshot](https://github.com/user-attachments/assets/7b675aca-af37-4fc5-b066-693329465d30)
-
 ![cc](https://github.com/user-attachments/assets/eedb4d6b-aea5-493b-b2ca-44db6008ffeb)
 
 
@@ -11,6 +9,21 @@ Built with **Node.js** and **Express.js**, it implements **JWT authentication** 
 
 ## Install Dependencies
 npm install
+
+## Setup Environtment Variables
+APP_PORT=3000
+
+MONGODB_URI=mongodb://localhost:27017
+
+MONGODB_NAME=your-db-name
+
+JWT_ACCESS_TOKEN_SECRET=your-secret-key
+
+JWT_ACCESS_TOKEN_EXPIRATION_TIME=15m
+
+JWT_REFRESH_TOKEN_SECRET=your-secret-key
+
+JWT_REFRESH_TOKEN_EXPIRATION_TIME=1h
 
 ## 🚀 Features
 ✅ **User Authentication** (Register, Login, JWT-based security)  
